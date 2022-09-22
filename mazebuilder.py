@@ -1,7 +1,7 @@
 import random
 import numpy as np
 
-import algorithmic_complexity.disjointset as ds
+import librerias_python.disjointset as ds
 
 def makeMaze(rows, cols: int):
     maze = np.zeros((rows*2 + 1, cols*2+1))
